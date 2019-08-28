@@ -20,7 +20,6 @@ var rps = (num) => {
 };
 
 // Application logic for who wins. 
-
 var rpsGame = (p1, comp) => {
   var winner;
   

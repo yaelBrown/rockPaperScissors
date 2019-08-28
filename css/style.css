@@ -30,3 +30,54 @@ main, html, body {
 }
 
 /* Page Content */ 
+
+body {
+  background: url('/img/flamingBg.gif');
+  background-size: cover;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gameWindow {
+  background-color: #91191C;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 24px 8px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 24px 8px rgba(255,255,255,1);
+  box-shadow: 10px 10px 24px 8px rgba(255,255,255,1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gameWindow > h1 {
+  color: #fff;
+}
+
+
+.form-control {
+  background-color: #91191C;
+  border-radius: 0px !important;
+  color: #fff !important;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.input-group {
+  width: 300px;
+}
+
+input {
+  text-align: center;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
